@@ -1,0 +1,314 @@
+7za(1)                   - A file archiver with highest compression ratio
+SDLKey(3)                - SDL Keysym Definitions
+SDL_ActiveEvent(3)       - Application visibility event structure
+SDL_AddTimer(3)          - Add a timer which will call a callback after the specified number of milliseconds has elapsed
+SDL_AudioCVT(3)          - Audio Conversion Structure
+SDL_AudioSpec(3)         - Audio Specification Structure
+SDL_BlitSurface(3)       - This performs a fast blit from the source surface to the destination surface
+SDL_BuildAudioCVT(3)     - Initializes a SDL_AudioCVT structure for conversion
+SDL_CD(3)                - CDROM Drive Information
+SDL_CDClose(3)           - Closes a SDL_CD handle
+SDL_CDEject(3)           - Ejects a CDROM
+SDL_CDName(3)            - Returns a human-readable, system-dependent identifier for the CD-ROM
+SDL_CDNumDrives(3)       - Returns the number of CD-ROM drives on the system
+SDL_CDOpen(3)            - Opens a CD-ROM drive for access
+SDL_CDPause(3)           - Pauses a CDROM
+SDL_CDPlay(3)            - Play a CD
+SDL_CDPlayTracks(3)      - Play the given CD track(s)
+SDL_CDResume(3)          - Resumes a CDROM
+SDL_CDStatus(3)          - Returns the current status of the given drive
+SDL_CDStop(3)            - Stops a CDROM
+SDL_CDtrack(3)           - CD Track Information Structure
+SDL_CloseAudio(3)        - Shuts down audio processing and closes the audio device
+SDL_Color(3)             - Format independent color description
+SDL_CondBroadcast(3)     - Restart all threads waiting on a condition variable
+SDL_CondSignal(3)        - Restart a thread wait on a condition variable
+SDL_CondWait(3)          - Wait on a condition variable
+SDL_CondWaitTimeout(3)   - Wait on a condition variable, with timeout
+SDL_ConvertAudio(3)      - Convert audio data to a desired audio format
+SDL_ConvertSurface(3)    - Converts a surface to the same format as another surface
+SDL_CreateCond(3)        - Create a condition variable
+SDL_CreateCursor(3)      - Creates a new mouse cursor
+SDL_CreateMutex(3)       - Create a mutex
+SDL_CreateRGBSurface(3)  - Create an empty SDL_Surface
+SDL_CreateRGBSurfaceFrom(3) - Create an SDL_Surface from pixel data
+SDL_CreateSemaphore(3)   - Creates a new semaphore and assigns an initial value to it
+SDL_CreateThread(3)      - Creates a new thread of execution that shares its parent's properties
+SDL_CreateYUVOverlay(3)  - Create a YUV video overlay
+SDL_Delay(3)             - Wait a specified number of milliseconds before returning
+SDL_DestroyCond(3)       - Destroy a condition variable
+SDL_DestroyMutex(3)      - Destroy a mutex
+SDL_DestroySemaphore(3)  - Destroys a semaphore that was created by SDL_CreateSemaphore
+SDL_DisplayFormat(3)     - Convert a surface to the display format
+SDL_DisplayFormatAlpha(3) - Convert a surface to the display format
+SDL_DisplayYUVOverlay(3) - Blit the overlay to the display
+SDL_EnableKeyRepeat(3)   - Set keyboard repeat rate
+SDL_EnableUNICODE(3)     - Enable UNICODE translation
+SDL_Event(3)             - General event structure
+SDL_EventState(3)        - This function allows you to set the state of processing certain events
+SDL_ExposeEvent(3)       - Quit requested event
+SDL_FillRect(3)          - This function performs a fast fill of the given rectangle with some color
+SDL_Flip(3)              - Swaps screen buffers
+SDL_FreeCursor(3)        - Frees a cursor created with SDL_CreateCursor
+SDL_FreeSurface(3)       - Frees (deletes) a SDL_Surface
+SDL_FreeWAV(3)           - Frees previously opened WAV data
+SDL_FreeYUVOverlay(3)    - Free a YUV video overlay
+SDL_GL_GetAttribute(3)   - Get the value of a special SDL/OpenGL attribute
+SDL_GL_GetProcAddress(3) - Get the address of a GL function
+SDL_GL_LoadLibrary(3)    - Specify an OpenGL library
+SDL_GL_SetAttribute(3)   - Set a special SDL/OpenGL attribute
+SDL_GL_SwapBuffers(3)    - Swap OpenGL framebuffers/Update Display
+SDL_GLattr(3)            - SDL GL Attributes
+SDL_GetAppState(3)       - Get the state of the application
+SDL_GetAudioStatus(3)    - Get the current audio state
+SDL_GetClipRect(3)       - Gets the clipping rectangle for a surface
+SDL_GetCursor(3)         - Get the currently active mouse cursor
+SDL_GetError(3)          - Get SDL error string
+SDL_GetEventFilter(3)    - Retrieves a pointer to he event filter
+SDL_GetGamma(3)          - Gets the gamma of the display
+SDL_GetGammaRamp(3)      - Gets the color gamma lookup tables for the display
+SDL_GetKeyName(3)        - Get the name of an SDL virtual keysym
+SDL_GetKeyState(3)       - Get a snapshot of the current keyboard state
+SDL_GetModState(3)       - Get the state of modifier keys
+SDL_GetMouseState(3)     - Retrieve the current state of the mouse
+SDL_GetRGB(3)            - Get RGB values from a pixel in the specified pixel format
+SDL_GetRGBA(3)           - Get RGBA values from a pixel in the specified pixel format
+SDL_GetRelativeMouseState(3) - Retrieve the current state of the mouse
+SDL_GetThreadID(3)       - Get the SDL thread ID of a SDL_Thread
+SDL_GetTicks(3)          - Get the number of milliseconds since the SDL library initialization
+SDL_GetVideoInfo(3)      - returns a pointer to information about the video hardware
+SDL_GetVideoSurface(3)   - returns a pointer to the current display surface
+SDL_Init(3)              - Initializes SDL
+SDL_InitSubSystem(3)     - Initialize subsystems
+SDL_JoyAxisEvent(3)      - Joystick axis motion event structure
+SDL_JoyBallEvent(3)      - Joystick trackball motion event structure
+SDL_JoyButtonEvent(3)    - Joystick button event structure
+SDL_JoyHatEvent(3)       - Joystick hat position change event structure
+SDL_JoystickClose(3)     - Closes a previously opened joystick
+SDL_JoystickEventState(3) - Enable/disable joystick event polling
+SDL_JoystickGetAxis(3)   - Get the current state of an axis
+SDL_JoystickGetBall(3)   - Get relative trackball motion
+SDL_JoystickGetButton(3) - Get the current state of a given button on a given joystick
+SDL_JoystickGetHat(3)    - Get the current state of a joystick hat
+SDL_JoystickIndex(3)     - Get the index of an SDL_Joystick
+SDL_JoystickName(3)      - Get joystick name
+SDL_JoystickNumAxes(3)   - Get the number of joystick axes
+SDL_JoystickNumBalls(3)  - Get the number of joystick trackballs
+SDL_JoystickNumButtons(3) - Get the number of joysitck buttons
+SDL_JoystickNumHats(3)   - Get the number of joystick hats
+SDL_JoystickOpen(3)      - Opens a joystick for use
+SDL_JoystickOpened(3)    - Determine if a joystick has been opened
+SDL_JoystickUpdate(3)    - Updates the state of all joysticks
+SDL_KeyboardEvent(3)     - Keyboard event structure
+SDL_KillThread(3)        - Gracelessly terminates the thread
+SDL_ListModes(3)         - Returns a pointer to an array of available screen dimensions for the given format and video flags
+SDL_LoadBMP(3)           - Load a Windows BMP file into an SDL_Surface
+SDL_LoadWAV(3)           - Load a WAVE file
+SDL_LockAudio(3)         - Lock out the callback function
+SDL_LockSurface(3)       - Lock a surface for directly access
+SDL_LockYUVOverlay(3)    - Lock an overlay
+SDL_MapRGB(3)            - Map a RGB color value to a pixel format
+SDL_MapRGBA(3)           - Map a RGBA color value to a pixel format
+SDL_MixAudio(3)          - Mix audio data
+SDL_MouseButtonEvent(3)  - Mouse button event structure
+SDL_MouseMotionEvent(3)  - Mouse motion event structure
+SDL_NumJoysticks(3)      - Count available joysticks
+SDL_OpenAudio(3)         - Opens the audio device with the desired parameters
+SDL_Overlay(3)           - YUV video overlay
+SDL_Palette(3)           - Color palette for 8-bit pixel formats
+SDL_PauseAudio(3)        - Pauses and unpauses the audio callback processing
+SDL_PeepEvents(3)        - Checks the event queue for messages and optionally returns them
+SDL_PixelFormat(3)       - Stores surface format information
+SDL_PollEvent(3)         - Polls for currently pending events
+SDL_PumpEvents(3)        - Pumps the event loop, gathering events from the input devices
+SDL_PushEvent(3)         - Pushes an event onto the event queue
+SDL_Quit(3)              - Shut down SDL
+SDL_QuitEvent(3)         - Quit requested event
+SDL_QuitSubSystem(3)     - Shut down a subsystem
+SDL_RWFromFile(3), SDL_FunctionName(3) - Short description of function
+SDL_Rect(3)              - Defines a rectangular area
+SDL_RemoveTimer(3)       - Remove a timer which was added with SDL_AddTimer
+SDL_ResizeEvent(3)       - Window resize event structure
+SDL_SaveBMP(3)           - Save an SDL_Surface as a Windows BMP file
+SDL_SemPost(3)           - Unlock a semaphore
+SDL_SemTryWait(3)        - Attempt to lock a semaphore but don't suspend the thread
+SDL_SemValue(3)          - Return the current value of a semaphore
+SDL_SemWait(3)           - Lock a semaphore and suspend the thread if the semaphore value is zero
+SDL_SemWaitTimeout(3)    - Lock a semaphore, but only wait up to a specified maximum time
+SDL_SetAlpha(3)          - Adjust the alpha properties of a surface
+SDL_SetClipRect(3)       - Sets the clipping rectangle for a surface
+SDL_SetColorKey(3)       - Sets the color key (transparent pixel) in a blittable surface and RLE acceleration
+SDL_SetColors(3)         - Sets a portion of the colormap for the given 8-bit surface
+SDL_SetCursor(3)         - Set the currently active mouse cursor
+SDL_SetEventFilter(3)    - Sets up a filter to process all events before they are posted to the event queue
+SDL_SetGamma(3)          - Sets the color gamma function for the display
+SDL_SetGammaRamp(3)      - Sets the color gamma lookup tables for the display
+SDL_SetModState(3)       - Set the current key modifier state
+SDL_SetPalette(3)        - Sets the colors in the palette of an 8-bit surface
+SDL_SetTimer(3)          - Set a callback to run after the specified number of milliseconds has elapsed
+SDL_SetVideoMode(3)      - Set up a video mode with the specified width, height and bits-per-pixel
+SDL_ShowCursor(3)        - Toggle whether or not the cursor is shown on the screen
+SDL_Surface(3)           - Graphical Surface Structure
+SDL_SysWMEvent(3)        - Platform-dependent window manager event
+SDL_ThreadID(3)          - Get the 32-bit thread identifier for the current thread
+SDL_UnlockAudio(3)       - Unlock the callback function
+SDL_UnlockSurface(3)     - Unlocks a previously locked surface
+SDL_UnlockYUVOverlay(3)  - Unlock an overlay
+SDL_UpdateRect(3)        - Makes sure the given area is updated on the given screen
+SDL_UpdateRects(3)       - Makes sure the given list of rectangles is updated on the given screen
+SDL_UserEvent(3)         - A user-defined event type
+SDL_VideoDriverName(3)   - Obtain the name of the video driver
+SDL_VideoInfo(3)         - Video Target information
+SDL_VideoModeOK(3)       - Check to see if a particular video mode is supported
+SDL_WM_GetCaption(3)     - Gets the window title and icon name
+SDL_WM_GrabInput(3)      - Grabs mouse and keyboard input
+SDL_WM_IconifyWindow(3)  - Iconify/Minimise the window
+SDL_WM_SetCaption(3)     - Sets the window tile and icon name
+SDL_WM_SetIcon(3)        - Sets the icon for the display window
+SDL_WM_ToggleFullScreen(3) - Toggles fullscreen mode
+SDL_WaitEvent(3)         - Waits indefinitely for the next available event
+SDL_WaitThread(3)        - Wait for a thread to finish
+SDL_WarpMouse(3)         - Set the position of the mouse cursor
+SDL_WasInit(3)           - Check which subsystems are initialized
+SDL_keysym(3)            - Keysym structure
+SDL_mutexP(3)            - Lock a mutex
+SDL_mutexV(3)            - Unlock a mutex
+TIFFClose(3tiff)         - close a previously opened TIFF file
+TIFFDataWidth(3tiff)     - Get the size of TIFF data types
+TIFFError(3tiff), TIFFSetErrorHandler(3tiff) - library error handling interface
+TIFFFieldDataType(3tiff) - Get TIFF data type from field information
+TIFFFieldName(3tiff)     - Get TIFF field name from field information
+TIFFFieldPassCount(3tiff) - Get whether to pass a count to TIFFGet/SetField
+TIFFFieldReadCount(3tiff) - Get number of values to be read from field
+TIFFFieldTag(3tiff)      - Get TIFF field tag value from field information
+TIFFFieldWriteCount(3tiff) - Get number of values to be written to field
+TIFFFlush(3tiff), TIFFFlushData(3tiff) - flush pending writes to an open TIFF file
+TIFFGetField(3tiff), TIFFVGetField(3tiff) - get the value(s) of a tag in an open TIFF file
+TIFFOpen(3tiff), TIFFFdOpen(3tiff), TIFFClientOpen(3tiff) - open a TIFF file for reading or writing
+TIFFPrintDirectory(3tiff) - print a description of a TIFF directory
+TIFFRGBAImage(3tiff), TIFFRGBAImageOK(3tiff), TIFFRGBAImageBegin(3tiff), TIFFRGBAImageGet(3tiff), TIFFRGBAImageEnd(3tiff) - read and decode an image into a raster
+TIFFReadDirectory(3tiff) - get the contents of the next directory in an open TIFF file
+TIFFReadEncodedStrip(3tiff) - read and decode a strip of data from an open TIFF file
+TIFFReadEncodedTile(3tiff) - read and decode a tile of data from an open TIFF file
+TIFFReadRGBAImage(3tiff), TIFFReadRGBAImageOriented(3tiff) - read and decode an image into a fixed-format raster
+TIFFReadRGBAStrip(3tiff) - read and decode an image strip into a fixed-format raster
+TIFFReadRGBATile(3tiff)  - read and decode an image tile into a fixed-format raster
+TIFFReadRawStrip(3tiff)  - return the undecoded contents of a strip of data from an open TIFF file
+TIFFReadRawTile(3tiff)   - return an undecoded tile of data from an open TIFF file
+TIFFReadScanline(3tiff)  - read and decode a scanline of data from an open TIFF file
+TIFFReadTile(3tiff)      - read and decode a tile of data from an open TIFF file
+TIFFSetDirectory(3tiff), TIFFSetSubDirectory(3tiff) - set the current directory for an open TIFF file
+TIFFSetField(3tiff), TIFFVSetField(3tiff) - set the value(s) of a tag in a TIFF file open for writing
+TIFFWarning(3tiff), TIFFSetWarningHandler(3tiff) - library warning interface
+TIFFWriteDirectory(3tiff), TIFFRewriteDirectory(3tiff), TIFFCheckpointDirectory(3tiff) - write the current directory in an open TIFF file
+TIFFWriteEncodedStrip(3tiff), TIFFWritedEncodedStrip(3tiff) - compress and write a strip of data to an open TIFF file
+TIFFWriteEncodedTile(3tiff), TIFFWritedEncodedTile(3tiff) - compress and write a tile of data to an open TIFF file
+TIFFWriteRawStrip(3tiff) - write a strip of raw data to an open TIFF file
+TIFFWriteRawTile(3tiff)  - write a tile of raw data to an open TIFF file
+TIFFWriteScanline(3tiff) - write a scanline to an open TIFF file
+TIFFWriteTile(3tiff)     - encode and write a tile of data to an open TIFF file
+TIFFbuffer(3tiff), TIFFReadBufferSetup(3tiff), TIFFWriteBufferSetup(3tiff) - I/O buffering control routines
+TIFFcodec(3tiff), TIFFFindCODEC(3tiff), TIFFRegisterCODEC(3tiff), TIFFUnRegisterCODEC(3tiff), TIFFIsCODECConfigured(3tiff) - codec-related utility routines
+TIFFcolor(3tiff), TIFFYCbCrToRGBInit(3tiff), TIFFYCbCrtoRGB(3tiff), TIFFCIELabToRGBInit(3tiff), TIFFCIELabToXYZ(3tiff), TIFFXYZToRGB(3tiff) - color conversion routines
+TIFFmemory(3tiff), _TIFFmalloc(3tiff), c _TIFFrealloc(3tiff), c _TIFFfree(3tiff), c _TIFFmemset(3tiff), c _TIFFmemcpy(3tiff), c _TIFFmemcmp(3tiff), c(3tiff) - memory management-related functions for use with TIFF files
+TIFFquery(3tiff), TIFFCurrentRow(3tiff), TIFFCurrentStrip(3tiff), TIFFCurrentTile(3tiff), TIFFCurrentDirectory(3tiff), TIFFLastDirectory(3tiff), TIFFFileno(3tiff), TIFFFileName(3tiff), TIFFGetMode(3tiff), TIFFIsTiled(3tiff), TIFFIsByteSwapped(3tiff), TIFFIsUpSampled(3tiff), TIFFIsMSB2LSB(3tiff), TIFFGetVersion(3tiff) - query routines
+TIFFsize(3tiff), TIFFScanlineSize(3tiff), TIFFRasterScanlineSize(3tiff) - return the size of various items associated with an open TIFF file
+TIFFstrip(3tiff), TIFFDefaultStripSize(3tiff), TIFFStripSize(3tiff), TIFFVStripSize(3tiff), TIFFRawStripSize(3tiff), TIFFComputeStrip(3tiff), TIFFNumberOfStrips(3tiff) - strip-related utility routines
+TIFFswab(3tiff), TIFFGetBitRevTable(3tiff), TIFFReverseBits(3tiff), TIFFSwabShort(3tiff), TIFFSwabLong(3tiff), TIFFSwabArrayOfShort(3tiff), TIFFSwabArrayOfLong(3tiff) - byte- and bit-swapping routines
+TIFFtile(3tiff), TIFFTileSize(3tiff), TIFFTileRowSize(3tiff), TIFFVTileSize(3tiff), TIFFDefaultTileSize(3tiff), TIFFComputeTile(3tiff), TIFFCheckTile(3tiff), TIFFNumberOfTiles(3tiff) - tile-related utility routines
+aclocal(1)               - manual page for aclocal 1.15
+autoconf(1)              - Generate configuration scripts
+autoheader(1)            - Create a template header for configure
+autom4te(1)              - Generate files and scripts thanks to M4
+automake(1)              - manual page for automake 1.15
+autoreconf(1)            - Update generated configuration files
+autoscan(1)              - Generate a preliminary configure.in
+autoupdate(1)            - Update a configure.in to a newer Autoconf
+bmp2tiff(1)              - create a TIFF file from a Microsoft Windows Device Independent Bitmap image file
+cjpeg(1)                 - compress an image file to a JPEG file
+config.guess(1)          - guess the build system triplet
+config.sub(1)            - validate and canonicalize a configuration triplet
+cwebp(1)                 - compress an image file to a WebP file
+djpeg(1)                 - decompress a JPEG file to an image file
+dwebp(1)                 - decompress a WebP file to an image file
+fax2ps(1)                - convert a TIFF facsimile to compressed (tm
+fax2tiff(1)              - create a TIFF Class F fax file from raw fax data
+ffmpeg(1)                - ffmpeg video converter
+ffmpeg-bitstream-filters(1) - FFmpeg bitstream filters
+ffmpeg-codecs(1)         - FFmpeg codecs
+ffmpeg-devices(1)        - FFmpeg devices
+ffmpeg-filters(1)        - FFmpeg filters
+ffmpeg-formats(1)        - FFmpeg formats
+ffmpeg-protocols(1)      - FFmpeg protocols
+ffmpeg-resampler(1)      - FFmpeg Resampler
+ffmpeg-scaler(1)         - FFmpeg video scaling and pixel format converter
+ffmpeg-utils(1)          - FFmpeg utilities
+ffplay(1)                - FFplay media player
+ffprobe(1)               - ffprobe media prober
+ffserver(1)              - ffserver video server
+flac(1)                  - Free Lossless Audio Codec
+freetype-config(1)       - Get information about a libfreetype installation
+gif2tiff(1)              - create a TIFF file from a GIF87 format image file
+help2man(1)              - generate a simple manual page
+hg(1)                    - Mercurial source code management system rst2man-indent-level 0 1 rstReportMargin \$1 \n[an-margin] level \n[rst2man-indent-level] level margin: \n[rst2man-indent\n[rst2man-indent-level]] - \n[rst2man-indent0] \n[rst2man-indent1] \n[rst2man-indent2] . 1 INDENT RS \$1 nr rst2man-indent\n[rst2man-indent-level] \n[an-margin] nr rst2man-indent-level +1 . UNINDENT RE rst2man-indent-level -1 \n[rst2man-indent\n[rst2man-indent-level]]u
+hgignore(5)              - syntax for Mercurial ignore files rst2man-indent-level 0 1 rstReportMargin \$1 \n[an-margin] level \n[rst2man-indent-level] level margin: \n[rst2man-indent\n[rst2man-indent-level]] - \n[rst2man-indent0] \n[rst2man-indent1] \n[rst2man-indent2] . 1 INDENT RS \$1 nr rst2man-indent\n[rst2man-indent-level] \n[an-margin] nr rst2man-indent-level +1 . UNINDENT RE rst2man-indent-level -1 \n[rst2man-indent\n[rst2man-indent-level]]u
+hgrc(5)                  - configuration files for Mercurial rst2man-indent-level 0 1 rstReportMargin \$1 \n[an-margin] level \n[rst2man-indent-level] level margin: \n[rst2man-indent\n[rst2man-indent-level]] - \n[rst2man-indent0] \n[rst2man-indent1] \n[rst2man-indent2] . 1 INDENT RS \$1 nr rst2man-indent\n[rst2man-indent-level] \n[an-margin] nr rst2man-indent-level +1 . UNINDENT RE rst2man-indent-level -1 \n[rst2man-indent\n[rst2man-indent-level]]u
+ifnames(1)               - Extract CPP conditionals from a set of files
+jpegtran(1)              - lossless transformation of JPEG files
+libavcodec(3)            - media streams decoding and encoding library
+libavdevice(3)           - multimedia device handling library
+libavfilter(3)           - multimedia filtering library
+libavformat(3)           - multimedia muxing and demuxing library
+libavutil(3)             - multimedia-biased utility library
+libmikmod-config(1)      - script to get information about the installed version of libmikmod
+libpng(3)                - Portable Network Graphics (PNG) Reference Library 1.6.17
+libpng(3)                - Portable Network Graphics (PNG) Reference Library 1.6.17 (private functions)
+libswresample(3)         - audio resampling library
+libswscale(3)            - video scaling and pixel format conversion library
+libtiff(3tiff)           - introduction to libtiff , a library for reading and writing TIFF files
+libtool(1)               - manual page for libtool 2.4.5.7-408c
+libtoolize(1)            - manual page for libtoolize 2.4.4.19-fda4
+lzmainfo(1)              - show information stored in the .lzma file header
+makewhatis(8)            - create whatis database
+metaflac(1)              - program to list, add, remove, or edit metadata in one or more FLAC files
+nasm(1)                  - the Netwide Assembler, a portable 80x86 assembler
+ndisasm(1)               - the Netwide Disassembler, an 80x86 binary file disassembler
+pal2rgb(1)               - convert a palette color TIFF image to a full color image
+pkg-config(1)            - Return metainformation about installed libraries
+png(5)                   - Portable Network Graphics (PNG) format
+ppm2tiff(1)              - create a TIFF file from PPM, PGM and PBM image files
+ras2tiff(1)              - create a TIFF file from a Sun rasterfile
+raw2tiff(1)              - create a TIFF file from a raw data
+rdjpgcom(1)              - display text comments from a JPEG file
+rgb2ycbcr(1)             - convert non-YCbCr TIFF images to a YCbCr TIFF image
+sgi2tiff(1)              - create a TIFF file from an SGI image file
+speexdec(1)              - The reference implementation speex decoder
+speexenc(1)              - The reference implementation speex encoder
+thumbnail(1)             - create a TIFF file with thumbnail images
+tiff2bw(1)               - convert a color TIFF image to greyscale
+tiff2pdf(1)              - convert a TIFF image to a PDF document
+tiff2ps(1)               - convert a TIFF image to
+tiff2rgba(1)             - convert a TIFF image to RGBA color space
+tiffcmp(1)               - compare two TIFF files
+tiffcp(1)                - copy (and possibly convert) a TIFF file
+tiffcrop(1)              - select, copy, crop, convert, extract, and/or process one or more TIFF files
+tiffdither(1)            - convert a greyscale image to bilevel using dithering
+tiffdump(1)              - print verbatim information about TIFF files
+tiffgt(1)                - display an image stored in a TIFF file (Silicon Graphics version)
+tiffinfo(1)              - print information about TIFF files
+tiffmedian(1)            - apply the median cut algorithm to data in a TIFF file
+tiffset(1)               - set or unset a field in a TIFF header
+tiffsplit(1)             - split a multi-image TIFF into single-image TIFF files
+tiffsv(1)                - save an image from the framebuffer in a TIFF file (Silicon Graphics version)
+wrjpgcom(1)              - insert text comments into a JPEG file
+xz(1), unxz(1), xzcat(1), lzma(1), unlzma(1), lzcat(1) - Compress or decompress .xz and .lzma files
+xzcmp(1), xzdiff(1), lzcmp(1), lzdiff(1) - compare compressed files
+xzdec(1), lzmadec(1)     - Small .xz and .lzma decompressors
+xzgrep(1)                - search compressed files for a regular expression
+xzless(1), lzless(1)     - view xz or lzma compressed (text) files
+xzmore(1), lzmore(1)     - view xz or lzma compressed (text) files
+yasm(1)                  - The Yasm Modular Assembler
+yasm_arch(7)             - Yasm Supported Target Architectures
+yasm_dbgfmts(7)          - Yasm Supported Debugging Formats
+yasm_objfmts(7)          - Yasm Supported Object Formats
+yasm_parsers(7)          - Yasm Supported Parsers (Assembler Syntaxes)
