@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libpsl
+Description: Publix Suffix List C library.
+Version: 0.7.1
+URL: http://github.com/rockdaboot/libpsl
+Libs: -L${libdir} -lpsl
+Cflags: -I${includedir}
